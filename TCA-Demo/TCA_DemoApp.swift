@@ -21,7 +21,15 @@ struct TCA_DemoApp: App {
                 } label: {
                     Text("Case 1")
                 }
+                NavigationLink {
+                    Case2View(store: Store(initialState: Case2Reducer.State(), reducer: {
+                        Case2Reducer()
+                    }))
+                } label: {
+                    Text("Case 2")
+                }
             }
+
         }
     }
 }

@@ -17,6 +17,8 @@
 		4B5EC77D2BD66AA50059E51E /* Case1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5EC77C2BD66AA50059E51E /* Case1View.swift */; };
 		4B5EC77F2BD66B470059E51E /* Case1Reducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5EC77E2BD66B470059E51E /* Case1Reducer.swift */; };
 		4B5EC7852BD66D480059E51E /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 4B5EC7842BD66D480059E51E /* ComposableArchitecture */; };
+		4B5EC7882BD6A5390059E51E /* Case2Reducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5EC7872BD6A5390059E51E /* Case2Reducer.swift */; };
+		4B5EC78A2BD6A5490059E51E /* Case2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5EC7892BD6A5490059E51E /* Case2View.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		4B5EC76C2BD6552B0059E51E /* TCA_DemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCA_DemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		4B5EC77C2BD66AA50059E51E /* Case1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Case1View.swift; sourceTree = "<group>"; };
 		4B5EC77E2BD66B470059E51E /* Case1Reducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Case1Reducer.swift; sourceTree = "<group>"; };
+		4B5EC7872BD6A5390059E51E /* Case2Reducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Case2Reducer.swift; sourceTree = "<group>"; };
+		4B5EC7892BD6A5490059E51E /* Case2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Case2View.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +143,7 @@
 			isa = PBXGroup;
 			children = (
 				4B5EC77B2BD66A890059E51E /* Case1 */,
+				4B5EC7862BD6A51D0059E51E /* Case2 */,
 			);
 			path = CaseStudies;
 			sourceTree = "<group>";
@@ -157,6 +162,15 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4B5EC7862BD6A51D0059E51E /* Case2 */ = {
+			isa = PBXGroup;
+			children = (
+				4B5EC7892BD6A5490059E51E /* Case2View.swift */,
+				4B5EC7872BD6A5390059E51E /* Case2Reducer.swift */,
+			);
+			path = Case2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -296,9 +310,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B5EC77F2BD66B470059E51E /* Case1Reducer.swift in Sources */,
+				4B5EC78A2BD6A5490059E51E /* Case2View.swift in Sources */,
 				4B5EC7522BD655260059E51E /* ContentView.swift in Sources */,
 				4B5EC7502BD655260059E51E /* TCA_DemoApp.swift in Sources */,
 				4B5EC77D2BD66AA50059E51E /* Case1View.swift in Sources */,
+				4B5EC7882BD6A5390059E51E /* Case2Reducer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
