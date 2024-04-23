@@ -28,7 +28,7 @@ struct Case2Reducer {
         BindingReducer()
         Reduce { state, action in
             switch action {
-             case .sendFromParent:
+            case .sendFromParent:
                 state.childState.childTitle = state.parentTitle
                 return .none
             case .binding(_):
@@ -71,7 +71,7 @@ struct Case2ChildReducer {
         BindingReducer()
         Reduce { state, action in
             switch action {
-             case .sendFromChild:
+            case .sendFromChild:
                 return .none
             case .binding(_):
                 return .none

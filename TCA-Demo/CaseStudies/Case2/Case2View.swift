@@ -23,7 +23,7 @@ struct Case2View: View {
             Button {
                 store.send(.sendFromParent)
             } label: {
-             Text("Click from parent")
+                Text("Click from parent")
             }
             
             Divider()
@@ -58,7 +58,7 @@ struct Case2ChildView: View {
             Button {
                 store.send(.sendFromChild)
             } label: {
-             Text("Click from Child")
+                Text("Click from Child")
             }
             
             Divider()

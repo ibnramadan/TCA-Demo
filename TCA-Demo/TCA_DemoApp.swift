@@ -12,7 +12,7 @@ import ComposableArchitecture
 struct TCA_DemoApp: App {
     var body: some Scene {
         WindowGroup {
-//            ContentView()
+            //            ContentView()
             NavigationStack {
                 NavigationLink {
                     Case1View(store: Store(initialState: Case1Reducer.State(), reducer: {
@@ -21,6 +21,7 @@ struct TCA_DemoApp: App {
                 } label: {
                     Text("Case 1")
                 }
+                
                 NavigationLink {
                     Case2View(store: Store(initialState: Case2Reducer.State(), reducer: {
                         Case2Reducer()
@@ -28,8 +29,17 @@ struct TCA_DemoApp: App {
                 } label: {
                     Text("Case 2")
                 }
+                
+                NavigationLink {
+                    Case3View(store: Store(initialState: Case3Reducer.State(), reducer: {
+                        Case3Reducer()
+                    }))
+                } label: {
+                    Text("Case 3")
+                }
+                
             }
-
+            
         }
     }
 }
